@@ -1,4 +1,4 @@
-:root { 
+:root {
   --background: #272a31;
   --textColor: #ec5242;
   --others: #d3d3d3;
@@ -11,35 +11,40 @@
 }
 
 /* header section */
+
 .socials {
   padding: 10px;
   background-color: var(--background);
 }
 
 /* main section */
+
 .top-content {
-  padding: 100px 0;
-  background: green;
+  /* padding: 100px 0; */
+  height: 80vh;
+  background-color: #fff;
+  background-image: url('../img/Pattern-Randomized.svg');
+  background-size: cover;
 }
 
 .main-program {
-  padding: 100px 0;
-  background: blue;
+  height: 50vh;
+  background-color: #fff;
+  background-image: url('../img/Diamond-Sunset.svg');
+  background-size: cover;
 }
 
 .featured-speakers {
-  padding: 100px 0;
-  background: yellow;
+  height: 70vh;
 }
 
 /* footer section */
 
 .partners {
-  padding: 100px 0;
-  background: orange;
+  height: 40vh;
+  background: var(--background);
 }
 
 .about-organization {
-  padding: 100px 0;
-  background: #272a31;
+  height: 20vh;
 }
