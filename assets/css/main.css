@@ -80,11 +80,14 @@ body {
   color: var(--textColor);
 }
 
-.banner,
-.date {
+.banner {
   font-family: 'COCOGOOSE', sans-serif;
   font-weight: bolder;
   font-size: 5rem;
+  line-height: 1;
+  background: linear-gradient(45deg, rgba(255, 0, 0, 1) 0%, rgba(33, 3, 3, 1) 33%, rgba(236, 82, 66, 1) 56%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .description {
@@ -101,6 +104,8 @@ body {
 }
 
 .date {
+  font-family: 'COCOGOOSE', sans-serif;
+  font-weight: bolder;
   font-size: 2rem;
   color: var(--background);
 }
@@ -110,10 +115,28 @@ body {
 }
 
 .main-program {
-  height: 50vh;
+  padding: 2em 8em;
+  text-align: center;
   background-color: #fff;
   background-image: url('../img/Diamond-Sunset.svg');
   background-size: cover;
+}
+
+.programmes {
+  display: flex;
+  justify-content: center;
+  color: var(--others);
+}
+
+.program {
+  width: 19.8%;
+  margin: 0.08rem auto;
+  background: #adabab38;
+  padding: 1.5rem;
+}
+
+.p-head {
+  color: var(--textColor);
 }
 
 .featured-speakers {
