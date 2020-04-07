@@ -4,7 +4,9 @@
   --others: #d3d3d3;
 }
 
-* {
+*,
+html,
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -17,6 +19,10 @@
   background-color: var(--background);
   text-align: right;
   font-size: 0.8rem;
+}
+
+.socials {
+  margin: 0;
 }
 
 .socials li {
@@ -35,8 +41,13 @@
 }
 
 .main-nav {
-  padding: 0 8rem;
+  padding: 1rem 8rem;
   margin-top: 0;
+  background: #fff !important;
+}
+
+.current-page:hover {
+  color: var(--textColor);
 }
 
 /* main section */
