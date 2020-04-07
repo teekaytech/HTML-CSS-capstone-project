@@ -56,16 +56,16 @@ body {
 
 .my-button {
   border-width: 0.3rem;
+  border-color: var(--textColor);
 }
 
 /* main section */
 
 .top-content {
-  /* padding: 100px 0; */
-  height: 80vh;
   background-color: #fff;
   background-image: url('../img/Pattern-Randomized.svg');
   background-size: cover;
+  padding: 6rem 8rem;
 }
 
 .main-program {
