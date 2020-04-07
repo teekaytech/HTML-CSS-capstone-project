@@ -4,12 +4,20 @@
   --others: #d3d3d3;
 }
 
+@font-face {
+  font-family: "COCOGOOSE";
+  src: url("../fonts/Cocogoose_trial.woff") format("woff"), url("../fonts/Cocogoose_trial.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 *,
 html,
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
 }
 
 /* header section */
@@ -41,7 +49,7 @@ body {
 }
 
 .main-nav {
-  padding: 0.1rem 8rem;
+  padding: 0.2rem 8rem;
   margin-top: 0;
   background: #fff !important;
 }
@@ -65,7 +73,40 @@ body {
   background-color: #fff;
   background-image: url('../img/Pattern-Randomized.svg');
   background-size: cover;
-  padding: 6rem 8rem;
+  padding: 3.4rem 8rem;
+}
+
+.sub-head {
+  color: var(--textColor);
+}
+
+.banner,
+.date {
+  font-family: 'COCOGOOSE', sans-serif;
+  font-weight: bolder;
+  font-size: 5rem;
+}
+
+.description {
+  width: 50%;
+  padding: 1rem;
+  background: rgb(243, 243, 243);
+  font-size: small;
+  border: 2px solid;
+  border-color: #fff;
+}
+
+.venue-time {
+  margin-top: 2.5rem;
+}
+
+.date {
+  font-size: 2rem;
+  color: var(--background);
+}
+
+.venue {
+  font-size: x-large;
 }
 
 .main-program {
