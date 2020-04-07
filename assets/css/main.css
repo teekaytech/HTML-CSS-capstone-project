@@ -1,5 +1,45 @@
+:root { 
+  --background: #272a31;
+  --textColor: #ec5242;
+  --others: #d3d3d3;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+/* header section */
+.socials {
+  padding: 10px;
+  background-color: var(--background);
+}
+
+/* main section */
+.top-content {
+  padding: 100px 0;
+  background: green;
+}
+
+.main-program {
+  padding: 100px 0;
+  background: blue;
+}
+
+.featured-speakers {
+  padding: 100px 0;
+  background: yellow;
+}
+
+/* footer section */
+
+.partners {
+  padding: 100px 0;
+  background: orange;
+}
+
+.about-organization {
+  padding: 100px 0;
+  background: #272a31;
 }
