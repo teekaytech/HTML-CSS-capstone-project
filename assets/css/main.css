@@ -26,7 +26,7 @@ body {
   padding: 0 8rem;
   background-color: var(--background);
   text-align: right;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 .socials {
@@ -70,10 +70,8 @@ body {
 /* main section */
 
 .top-content {
-  background-color: #fff;
   background-image: url('../img/Pattern-Randomized.svg');
   background-size: cover;
-  padding: 3.4rem 8rem;
 }
 
 .sub-head {
@@ -91,21 +89,14 @@ body {
 }
 
 .description {
-  width: 50%;
-  padding: 1rem;
   background: rgb(243, 243, 243);
   font-size: small;
   border: 2px solid;
   border-color: #fff;
 }
 
-.venue-time {
-  margin-top: 2.5rem;
-}
-
 .date {
   font-family: 'COCOGOOSE', sans-serif;
-  font-weight: bolder;
   font-size: 2rem;
   color: var(--background);
 }
@@ -115,9 +106,7 @@ body {
 }
 
 .main-program {
-  padding: 2em 8em;
   text-align: center;
-  background-color: #fff;
   background-image: url('../img/Diamond-Sunset.svg');
   background-size: cover;
 }
@@ -126,6 +115,7 @@ body {
   display: flex;
   justify-content: center;
   color: var(--others);
+  margin: 3rem 0;
 }
 
 .program {
@@ -135,12 +125,33 @@ body {
   padding: 1.5rem;
 }
 
+.under-line {
+  border: 1px solid var(--textColor);
+  width: 3rem;
+  margin: 0 auto;
+}
+
 .p-head {
   color: var(--textColor);
 }
 
+.whole-under {
+  text-decoration: underline;
+}
+
 .featured-speakers {
-  height: 70vh;
+  color: var(--background);
+}
+
+.r-pos {
+  background-image: url('../img/blank.png');
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 5rem 5rem;
+}
+
+.speaker-line {
+  width: 7%;
 }
 
 /* footer section */
