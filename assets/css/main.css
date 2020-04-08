@@ -20,6 +20,11 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: var(--background);
+}
+
 /* header section */
 
 .top-nav {
@@ -156,11 +161,22 @@ body {
 
 /* footer section */
 
-.partners {
-  height: 40vh;
-  background: var(--background);
+.partners-section {
+  color: rgb(182, 182, 182);
+  background: #414141;
 }
 
-.about-organization {
-  height: 20vh;
+.partners {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+  color: var(--others);
+}
+
+.partner {
+  width: 24.8%;
+  margin: 0.08rem auto;
+  justify-self: center;
+  align-content: flex-end;
 }
