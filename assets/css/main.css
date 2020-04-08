@@ -28,7 +28,6 @@ a {
 /* header section */
 
 .top-nav {
-  padding: 0 8rem;
   background-color: var(--background);
   text-align: right;
   font-size: 0.9rem;
@@ -53,8 +52,7 @@ a {
   color: #fff;
 }
 
-.main-nav {
-  padding: 0.2rem 8rem;
+.main-nav-container {
   margin-top: 0;
   background: #fff !important;
 }
@@ -70,6 +68,37 @@ a {
 .my-button {
   border-width: 0.3rem;
   border-color: var(--textColor);
+}
+
+.navbar-toggler {
+  border: unset;
+}
+
+.menu {
+  font-size: 3rem;
+  color: var(--background);
+}
+
+@media only screen and (max-width: 1024px) {
+  .my-button {
+    border-width: 0.2rem;
+    font-size: x-small;
+  }
+
+  .nav-anchor {
+    font-size: x-small;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .top-nav {
+    display: none;
+  }
+
+  .main-nav-container {
+    background: url('../img/Pattern-Randomized.svg') bottom !important;
+    background-size: cover !important;
+  }
 }
 
 /* main section */
@@ -89,8 +118,9 @@ a {
   font-size: 5rem;
   line-height: 1;
   background: linear-gradient(45deg, rgba(255, 0, 0, 1) 0%, rgba(33, 3, 3, 1) 33%, rgba(236, 82, 66, 1) 56%);
-  background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  color: var(--textColor);
 }
 
 .description {
@@ -118,16 +148,17 @@ a {
 
 .programmes {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   color: var(--others);
-  margin: 3rem 0;
 }
 
 .program {
   width: 19.8%;
-  margin: 0.08rem auto;
   background: #adabab38;
-  padding: 1.5rem;
+  padding: 0.7rem;
+  height: 14rem;
+  line-height: 1.1;
 }
 
 .under-line {
@@ -137,6 +168,7 @@ a {
 }
 
 .p-head {
+  font-size: 1.2rem;
   color: var(--textColor);
 }
 
@@ -159,6 +191,106 @@ a {
   width: 7%;
 }
 
+.join-button {
+  background-color: var(--textColor);
+  color: var(--others);
+  font-weight: bolder;
+  font-size: x-large;
+  padding: 2rem 4rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .sub-head {
+    font-size: large;
+  }
+
+  .banner {
+    font-size: 4rem;
+  }
+
+  .description {
+    min-width: 75%;
+  }
+
+  .program {
+    width: 32%;
+    padding: 0.5rem;
+    height: 10rem;
+  }
+
+  .p-head {
+    font-size: 1.2rem;
+  }
+
+  .p4,
+  .p5 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .top-content {
+    padding-top: 2.5rem;
+  }
+
+  .sub-head {
+    font-size: x-large;
+  }
+
+  .banner {
+    font-size: 2.5rem;
+  }
+
+  .description {
+    min-width: 100%;
+    line-height: 1.7;
+    font-size: 1rem;
+  }
+
+  .date {
+    font-size: 1.5rem;
+  }
+
+  .venue {
+    font-size: medium;
+  }
+
+  .programmes {
+    flex-direction: column;
+    margin: 2.5rem 0;
+  }
+
+  .program {
+    width: 100%;
+    margin: 0.5rem auto;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    height: auto;
+  }
+
+  .p-head {
+    font-size: 1.1em;
+    overflow-wrap: break-word;
+  }
+
+  .p-details {
+    font-size: medium;
+  }
+
+  .whole-under {
+    display: none;
+  }
+
+  .sp3,
+  .sp4,
+  .sp5,
+  .sp6 {
+    display: none;
+  }
+}
+
 /* footer section */
 
 .partners-section {
@@ -169,14 +301,26 @@ a {
 .partners {
   text-align: center;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-content: flex-end;
+  align-items: end;
   color: var(--others);
+  flex-wrap: wrap;
 }
 
 .partner {
-  width: 24.8%;
+  width: 23%;
   margin: 0.08rem auto;
   justify-self: center;
   align-content: flex-end;
+}
+
+@media only screen and (max-width: 768px) {
+  .partner {
+    width: 45%;
+  }
+
+  .sub-item {
+    display: none;
+  }
 }

@@ -17,50 +17,57 @@
 <body>
   <header>
     <nav class="top-nav">
-      <ul class="socials">
-        <li class="social-items"><a href="#" class="nav-anchor"><i class="fab fa-facebook"></i></a></li>
-        <li class="social-items"><a href="#" class="nav-anchor"><i class="fab fa-twitter"></i></a></li>
-        <li class="social-items"><a href="#" class="nav-anchor">French</i></a></li>
-        <li class="social-items"><a href="#" class="nav-anchor">My Page</i></a></li>
-        <li class="social-items"><a href="#" class="nav-anchor">Login</a></li>
-      </ul>
-    </nav>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light main-nav">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <a class="navbar-brand mr-auto" href="#">
-          <img src="assets/img/teekay-logo.jpg" class="img-fluid w-50" alt="company-logo">
-        </a>
-        <ul class="navbar-nav mt-2 mt-lg-0">
-          <li class="nav-item active">
-            <a class="nav-link mr-4 n-a-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link mr-4 n-a-link" href="#">Program</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link mr-4 n-a-link" href="#">Join</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link mr-4 n-a-link" href="#">Sponsor</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link mr-4 n-a-link" href="#">News</a>
-          </li>
+      <div class="container">
+        <ul class="socials">
+          <li class="social-items"><a href="#" class="nav-anchor"><i class="fab fa-facebook"></i></a></li>
+          <li class="social-items"><a href="#" class="nav-anchor"><i class="fab fa-twitter"></i></a></li>
+          <li class="social-items"><a href="#" class="nav-anchor">French</i></a></li>
+          <li class="social-items"><a href="#" class="nav-anchor">My Page</i></a></li>
+          <li class="social-items"><a href="#" class="nav-anchor">Login</a></li>
         </ul>
-        <button type="button" class="btn btn-outline-danger mr-3 rounded-0 my-button">TG
-          Symposium</button>
       </div>
     </nav>
+    <div class="main-nav-container">
+      <nav class="navbar navbar-expand-md navbar-light navbar-default main-nav">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars font-weight-bolder menu"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand mr-auto" href="#">
+              <img src="assets/img/teekay-logo.jpg" class="img-fluid w-50" alt="company-logo">
+            </a>
+            <ul class="navbar-nav mt-2 mt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link mr-4 n-a-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mr-4 n-a-link" href="#">Program</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mr-4 n-a-link" href="#">Join</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mr-4 n-a-link" href="#">Sponsor</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mr-4 n-a-link" href="#">News</a>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-outline-danger mr-3 rounded-0 my-button">TG
+              Symposium</button>
+          </div>
+        </div>
+      </nav>
+    </div>
+
   </header>
 
   <main>
 
     <section class="top-content bg-white">
-      <div class="container py-4">
+      <div class="container pt-2 pb-4">
         <h2 class="sub-head">Trading Made Easy!</h2>
         <h1 class="banner text-white">FOREX TRADING <br> GLOBAL SYMPOSIUM <br> 2020</h1>
         <div class="description p-3 w-50 mt-4">
@@ -80,46 +87,80 @@
       <h3 class="text-white pt-4">Main Program</h3>
       <hr class="under-line">
       <div class="container">
-        <div class="programmes">
-          <article class="program p1">
-            <img src="assets/img/icons8-start-48.png" alt="lecture-logo" class="img-fluid pb-3 w-25">
-            <h4 class="p-head font-weight-bolder pb-3">Getting Started</h4>
-            <small class="font-weight-bolder">Experience a simple, yet comprehensive approach to getting started with
-              Forex Trading</small>
+        <div class="programmes p-2">
+          <article class="program  p1">
+            <div class="col-2 col-md-12">
+              <img src="assets/img/icons8-start-48.png" alt="start-logo" class="img-fluid">
+            </div>
+            <div class="col-3 col-md-12">
+              <h2 class="p-head font-weight-bolder">Getting Started</h2>
+            </div>
+            <div class="col-7 col-md-12">
+              <small class="p-details font-weight-bolder">Experience a simple, yet comprehensive approach to getting
+                started with Forex Trading</small>
+            </div>
           </article>
 
           <article class="program p2">
-            <img src="assets/img/icons8-lecturer-50.png" alt="lecture-logo" class="img-fluid pb-3 w-25">
-            <h4 class="p-head font-weight-bolder pb-3">Lectures</h4>
-            <small class="font-weight-bolder">Listen to the speakers from various countries who are deep rooted in forex
-              trading.</small>
+            <div class="col-2 col-md-12">
+              <img src="assets/img/icons8-lecturer-50.png" alt="lecture-logo" class="img-fluid">
+            </div>
+            <div class="col-3 col-md-12">
+              <h2 class="p-head font-weight-bolder">Lectures</h2>
+            </div>
+            <div class="col-7 col-md-12">
+              <small class="p-details font-weight-bolder">Come and listen to the speakers from various countries who are
+                expert
+                in trading.</small>
+            </div>
           </article>
 
           <article class="program p3">
-            <img src="assets/img/icons8-video-projector-50.png" alt="lecture-logo" class="img-fluid pb-3 w-25">
-            <h4 class="p-head font-weight-bolder pb-3">Live Session</h4>
-            <small class="font-weight-bolder">Witness trading methodologies right from the symposium. An
-              account will be created for one of the participants to trade live.</small>
+            <div class="col-2 col-md-12">
+              <img src="assets/img/icons8-video-projector-50.png" alt="projector-logo" class="img-fluid">
+            </div>
+            <div class="col-3 col-md-12">
+              <h2 class="p-head font-weight-bolder">Live Session</h2>
+            </div>
+            <div class="col-7 col-md-12">
+              <small class="p-details font-weight-bolder">Witness trading methodologies right from the symposium, with
+                live trading session.</small>
+            </div>
           </article>
 
           <article class="program p4">
-            <img src="assets/img/icons8-chat-64.png" alt="lecture-logo" class="img-fluid pb-3 w-25">
-            <h4 class="p-head font-weight-bolder pb-3">Testimonies</h4>
-            <small class="font-weight-bolder">A session is dedicated to past beneficiaries to tell their stories,
-              thereby
-              encouraging new participants.</small>
+            <div class="col-2 col-md-12">
+              <img src="assets/img/icons8-chat-64.png" alt="chat-logo" class="img-fluid">
+            </div>
+            <div class="col-3 col-md-12">
+              <h2 class="p-head font-weight-bolder">Testimony</h2>
+            </div>
+            <div class="col-7 col-md-12">
+              <small class="p-details font-weight-bolder">Dedicated session to past beneficiaries to tell their stories,
+                encouraging new participants.</small>
+            </div>
           </article>
 
           <article class="program p5">
-            <img src="assets/img/icons8-social-network-64.png" alt="lecture-logo" class="img-fluid pb-3 w-25">
-            <h4 class="p-head font-weight-bolder pb-3">Networking</h4>
-            <small class="font-weight-bolder">Come and mingle with people of like minds. Create a network with fellow
-              participants and lecturers.</small>
+            <div class="col-2 col-md-12">
+              <img src="assets/img/icons8-social-network-64.png" alt="network-logo" class="img-fluid">
+            </div>
+            <div class="col-3 col-md-12">
+              <h2 class="p-head font-weight-bolder">Network Session</h2>
+            </div>
+            <div class="col-7 col-md-12">
+              <small class="p-details font-weight-bolder">Come and mingle with like minds. Create a network
+                with fellow
+                participants and lecturers.</small>
+            </div>
           </article>
         </div>
         <p class="whole-under text-white pb-5">
           <a href="#" class="text-uppercase text-decoration-none text-white">see the whole program</a>
         </p>
+        <button type="button" class="btn mb-5 rounded-0 d-xs-block d-md-none join-button">Join TG
+          Symposium
+          2020</button>
       </div>
     </section>
 
@@ -128,13 +169,13 @@
       <hr class="under-line">
       <div class="container my-5">
         <div class="row mx-2">
-          <article class="col-sm-6 card border-0">
+          <article class="col-lg-6 col-sm-12 card border-0 sp1">
             <div class="row pb-2 mb-3">
-              <div class="col-lg-4 col-md-1 col-2 p-0 r-pos">
+              <div class="col-lg-4 col-md-3 col-3 p-0 r-pos">
                 <img src="assets/img/soros.jpg" class="card-img pt-3 pl-3 pb-3 i-height" alt="bonnie">
               </div>
-              <div class="col-lg-8 col-md-11 col-10 pl-0 pr-4">
-                <div class="card-body m-0 p-0 pl-md-3">
+              <div class="col-lg-8 col-md-9 col-9 pl-0 pr-4">
+                <div class="card-body m-0 p-0 pl-3">
                   <h2 class="pb-0 mb-0"> <a href="#"
                       class="h5 text-decoration-none text-dark font-weight-bolder mb-0">George
                       Soros</a>
@@ -155,13 +196,13 @@
             </div>
           </article>
 
-          <article class="col-sm-6 card border-0">
+          <article class="col-lg-6 col-sm-12 card border-0 sp2">
             <div class="row pb-2 mb-3">
-              <div class="col-lg-4 col-md-1 col-2 p-0 r-pos">
+              <div class="col-lg-4 col-md-3 col-3 p-0 r-pos">
                 <img src="assets/img/andriew.jpg" class="card-img pt-3 pl-3 pb-3 i-height" alt="andrew">
               </div>
-              <div class="col-lg-8 col-md-11 col-10 pl-0 pr-4">
-                <div class="card-body m-0 p-0 pl-md-3">
+              <div class="col-lg-8 col-md-9 col-9 pl-0 pr-4">
+                <div class="card-body m-0 p-0 pl-3">
                   <h2 class="pb-0 mb-0"> <a href="#"
                       class="h5 text-decoration-none text-dark font-weight-bolder mb-0">Andrew Krieger</a>
                   </h2>
@@ -180,13 +221,13 @@
             </div>
           </article>
 
-          <article class="col-sm-6 card border-0">
+          <article class="col-lg-6 col-sm-12 card border-0 sp3">
             <div class="row pb-2 mb-3">
-              <div class="col-lg-4 col-md-1 col-2 p-0 r-pos">
+              <div class="col-lg-4 col-md-3 col-3 p-0 r-pos">
                 <img src="assets/img/bruce.jpg" class="card-img pt-3 pl-3 pb-3 i-height" alt="bruce">
               </div>
-              <div class="col-lg-8 col-md-11 col-10 pl-0 pr-4">
-                <div class="card-body m-0 p-0 pl-md-3">
+              <div class="col-lg-8 col-md-9 col-9 pl-0 pr-4">
+                <div class="card-body m-0 p-0 pl-3">
                   <h2 class="pb-0 mb-0"> <a href="#"
                       class="h5 text-decoration-none text-dark font-weight-bolder mb-0">Bruce Kovner</a>
                   </h2>
@@ -205,13 +246,13 @@
             </div>
           </article>
 
-          <article class="col-sm-6 card border-0">
+          <article class="col-lg-6 col-sm-12 card border-0 sp4">
             <div class="row pb-2 mb-3">
-              <div class="col-lg-4 col-md-1 col-2 p-0 r-pos">
+              <div class="col-lg-4 col-md-3 col-3 p-0 r-pos">
                 <img src="assets/img/jones.jpg" class="card-img pt-3 pl-3 pb-3 i-height" alt="jones">
               </div>
-              <div class="col-lg-8 col-md-11 col-10 pl-0 pr-4">
-                <div class="card-body m-0 p-0 pl-md-3">
+              <div class="col-lg-8 col-md-9 col-9 pl-0 pr-4">
+                <div class="card-body m-0 p-0 pl-3">
                   <h2 class="pb-0 mb-0"> <a href="#"
                       class="h5 text-decoration-none text-dark font-weight-bolder mb-0">Paul Tudor Jones</a>
                   </h2>
@@ -231,13 +272,13 @@
             </div>
           </article>
 
-          <article class="col-sm-6 card border-0">
+          <article class="col-lg-6 col-sm-12 card border-0 sp5">
             <div class="row pb-2 mb-3">
-              <div class="col-lg-4 col-md-1 col-2 p-0 r-pos">
+              <div class="col-lg-4 col-md-3 col-3 p-0 r-pos">
                 <img src="assets/img/urs.jpg" class="card-img pt-3 pl-3 pb-3 i-height" alt="urs">
               </div>
-              <div class="col-lg-8 col-md-11 col-10 pl-0 pr-4">
-                <div class="card-body m-0 p-0 pl-md-3">
+              <div class="col-lg-8 col-md-9 col-9 pl-0 pr-4">
+                <div class="card-body m-0 p-0 pl-3">
                   <h2 class="pb-0 mb-0"> <a href="#"
                       class="h5 text-decoration-none text-dark font-weight-bolder mb-0">Urs Schwarzenbach</a>
                   </h2>
@@ -257,13 +298,13 @@
             </div>
           </article>
 
-          <article class="col-sm-6 card border-0">
+          <article class="col-lg-6 col-sm-12 card border-0 sp6">
             <div class="row pb-2 mb-3">
-              <div class="col-lg-4 col-md-1 col-2 p-0 r-pos">
+              <div class="col-lg-4 col-md-3 col-3 p-0 r-pos">
                 <img src="assets/img/stanley.jpg" class="card-img pt-3 pl-3 pb-3 i-height" alt="stanley">
               </div>
-              <div class="col-lg-8 col-md-11 col-10 pl-0 pr-4">
-                <div class="card-body m-0 p-0 pl-md-3">
+              <div class="col-lg-8 col-md-9 col-9 pl-0 pr-4">
+                <div class="card-body m-0 p-0 pl-3">
                   <h2 class="pb-0 mb-0"> <a href="#"
                       class="h5 text-decoration-none text-dark font-weight-bolder mb-0">Stanley Druckenmiller</a>
                   </h2>
@@ -282,6 +323,11 @@
             </div>
           </article>
         </div>
+        <div class="more border p-3 text-center d-md-none d-xs-block">
+          <a href="#">
+            MORE <span class="text-danger display-inline-block pl-2"><i class="fas fa-caret-down"></i></span>
+          </a>
+        </div>
       </div>
     </section>
   </main>
@@ -294,23 +340,22 @@
         <div class="partners p-5">
           <div class="partner partner1">
             <a href="#">
-              <img src="assets/img/fxtm-trader.png" alt="fxtm-logo" class="img-fluid w-75">
+              <img src="assets/img/fxtm-trader.png" alt="fxtm-logo" class="img-fluid">
             </a>
           </div>
           <div class="partner partner2">
             <a href="#">
-              <img src="assets/img/alpari-trader.png" alt="alpari-logo" class="img-fluid
-              w-75">
+              <img src="assets/img/alpari-trader.png" alt="alpari-logo" class="img-fluid">
             </a>
           </div>
           <div class="partner partner3">
             <a href="#">
-              <img src="assets/img/alpha-trader.png" alt="alpha-logo" class="img-fluid w-75">
+              <img src="assets/img/alpha-trader.png" alt="alpha-logo" class="img-fluid">
             </a>
           </div>
           <div class="partner partner4">
             <a href="#">
-              <img src="assets/img/iq-trader.png" alt="iq-option-logo" class="img-fluid w-75">
+              <img src="assets/img/iq-trader.png" alt="iq-option-logo" class="img-fluid">
             </a>
           </div>
         </div>
@@ -323,27 +368,24 @@
         </div>
         <div class="items item2 flex-fill">
           <p class="font-weight-bold">2020 Teekay Global Symposium. Some Rights Reserved.</p>
-          <small class="d-block">This is a Capstone Project issued by <a href="https://www.microverse.org/"
-              class="whole-under">Microverse
-              Inc.</a>, that marks the
-            completion of HTML/CSS track of
-            the main curriculum.</small>
-          <small class="d-block">Appropriate credits are given to the author of the design, the publisher of the
-            contents and platforms used. This can be found in <a
-              href="https://github.com/teekaytech/HTML-CSS-capstone-project" class="whole-under">the github project
-              page</a> of <a href="https://github.com/teekaytech" class="whole-under"> the
-              developer</a></small>
+          <div class="sub-item">
+            <small class="d-block">This is a Capstone Project issued by <a href="https://www.microverse.org/"
+                class="whole-under">Microverse
+                Inc.</a>, that marks the
+              completion of HTML/CSS track of
+              the main curriculum.</small>
+            <small class="d-block last-item d-sm-none">Appropriate credits are given to the author of the design, the
+              publisher of
+              the
+              contents and platforms used. This can be found in <a
+                href="https://github.com/teekaytech/HTML-CSS-capstone-project" class="whole-under">the github project
+                page</a> of <a href="https://github.com/teekaytech" class="whole-under"> the
+                developer</a></small>
+          </div>
         </div>
       </div>
     </div>
   </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
 </body>
 
 </html>
