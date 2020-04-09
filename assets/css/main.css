@@ -125,7 +125,7 @@ a {
 }
 
 .other-banner {
-  font-size: 4rem;
+  font-size: 3.5rem;
   background: unset;
   -webkit-text-fill-color: unset;
   -webkit-background-clip: unset;
@@ -178,11 +178,15 @@ a {
   width: 60%;
 }
 
+.about-past-symposium {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .past {
-  min-width: 40%;
-  max-width: 40%;
-  min-height: 30vh;
-  max-height: 35vh;
+  width: 44%;
+  height: 37vh;
 }
 
 .past-one {
@@ -285,6 +289,11 @@ a {
   .p5 {
     display: none;
   }
+
+  .past {
+    width: 100%;
+    height: 30vh;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -348,6 +357,28 @@ a {
   .sp6 {
     display: none;
   }
+
+  .other-banner {
+    font-size: 2.5rem;
+  }
+
+  .about-contact {
+    margin: 3.5rem auto;
+    width: 100%;
+  }
+
+  .about-logo {
+    width: 80%;
+  }
+
+  .about-past-symposium {
+    flex-direction: column;
+  }
+
+  .past {
+    width: 100%;
+    height: 15rem;
+  }
 }
 
 /* footer section */
@@ -382,5 +413,10 @@ a {
 
   .sub-item {
     display: none;
+  }
+
+  .about-footer {
+    background-color: var(--others);
+    color: var(--background);
   }
 }
