@@ -171,11 +171,31 @@ a {
   background-image: unset;
   background-size: unset;
   color: var(--background);
+  background-color: rgb(247, 247, 247);
 }
 
 .about-logo {
   margin: 1rem auto;
   width: 60%;
+}
+
+.tickets {
+  width: 70%;
+}
+
+.rad {
+  color: var(--textColor);
+  font-weight: bold;
+}
+
+.table {
+  border: 4px double var(--textColor);
+}
+
+.rounded-header {
+  width: max-content;
+  margin: 0 auto;
+  padding: 0 1.2rem;
 }
 
 .about-past-symposium {
