@@ -262,6 +262,10 @@ a {
   padding: 2rem 4rem;
 }
 
+.bullet-img {
+  width: 0.5rem;
+}
+
 @media only screen and (max-width: 1024px) {
   .sub-head {
     font-size: large;
