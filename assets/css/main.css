@@ -112,7 +112,8 @@ a {
   color: var(--textColor);
 }
 
-.banner {
+.banner,
+.other-banner {
   font-family: 'COCOGOOSE', sans-serif;
   font-weight: bolder;
   font-size: 5rem;
@@ -123,11 +124,31 @@ a {
   color: var(--textColor);
 }
 
+.other-banner {
+  font-size: 4rem;
+  background: unset;
+  -webkit-text-fill-color: unset;
+  -webkit-background-clip: unset;
+}
+
 .description {
   background: rgb(243, 243, 243);
   font-size: small;
   border: 2px solid;
   border-color: #fff;
+}
+
+.about-desc {
+  margin: 5rem auto;
+  width: 80%;
+  font-size: medium;
+  border-color: rgb(243, 243, 243);
+  background: #fff;
+}
+
+.about-contact {
+  margin: 5rem auto;
+  width: 80%;
 }
 
 .date {
@@ -144,6 +165,44 @@ a {
   text-align: center;
   background-image: url('../img/Diamond-Sunset.svg');
   background-size: cover;
+}
+
+.about-main {
+  background-image: unset;
+  background-size: unset;
+  color: var(--background);
+}
+
+.about-logo {
+  margin: 1rem auto;
+  width: 60%;
+}
+
+.past {
+  min-width: 40%;
+  max-width: 40%;
+  min-height: 30vh;
+  max-height: 35vh;
+}
+
+.past-one {
+  background: url('https://i0.wp.com/i.onthe.io/smngoz6dnks0ojudi.aa7b9b05.jpg?resize=640%2C425&ssl=1') no-repeat center;
+  background-size: cover;
+}
+
+.past-two {
+  background: url('https://cdn.bigdutchman.com/fileadmin/content/egg-poultry-pig/press/news/photos/alt_2018/2018_03_06_Seminar-Nigeria-Schweinehaltung/Schweinehaltung-pig-production-Gruppenphoto-Seminar-Nigeria-Big-Dutchman_72.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.about-past-title {
+  width: 100%;
+  height: 100%;
+  background-color: #ec5342a2;
+}
+
+.make-white {
+  color: white;
 }
 
 .programmes {
@@ -293,7 +352,8 @@ a {
 
 /* footer section */
 
-.partners-section {
+.partners-section,
+.about-footer {
   color: rgb(182, 182, 182);
   background: #414141;
 }
