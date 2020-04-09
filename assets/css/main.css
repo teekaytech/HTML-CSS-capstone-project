@@ -183,13 +183,18 @@ a {
   width: 70%;
 }
 
+.stripe-back {
+  background-image: linear-gradient(45deg, #ec5242 12.50%, #fff 12.50%, #fff 25%, #3D6F8E 25%, #3D6F8E 37.50%, #fff 37.50%, #fff 50%, #ec5242 50%, #ec5242 62.50%, #fff 62.50%, #fff 75%, #3D6F8E 75%, #3D6F8E 87.50%, #fff 87.50%, #fff 100%);
+  background-size: 40.00px 40.00px;
+}
+
 .rad {
   color: var(--textColor);
   font-weight: bold;
 }
 
-.table {
-  border: 4px double var(--textColor);
+.lunch-head {
+  background: var(--others);
 }
 
 .rounded-header {
