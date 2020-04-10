@@ -13,7 +13,7 @@ The aim of this project is to develop a real-world-like project based on an onli
   * W3C Validator
 
 ## Live demo
-[Live Demo Link](https://rawcdn.githack.com/teekaytech/Newsweek-Clone/857ef8b2b7c9617ec36767791c43bc50ec77db9c/index.html)
+[Live Demo Link](https://rawcdn.githack.com/teekaytech/HTML-CSS-capstone-project/b0dcf61bf8bfdb043032a5aba055559222e5b059/index.html)
 
 ## Getting started
 **I created a website a forex trading company (assumed by me). The design specifications were gotten from [Cindy Shin in Behance](https://www.behance.net/adagio07). The project consist of three(3) working pages (including home, about and tickets pages) with each page having versions for 2 different screen sizes (mobile and desktop)**
