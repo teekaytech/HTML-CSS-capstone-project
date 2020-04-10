@@ -212,12 +212,6 @@ a {
   padding: 0 1.2rem;
 }
 
-.about-past-symposium {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .past {
   width: 44%;
   height: 37vh;
