@@ -13,25 +13,22 @@ The aim of this project is to develop a real-world-like project based on an onli
   * W3C Validator
 
 ## Live demo
-[Live Demo Link](https://teekaytech.github.io/HTML-CSS-capstone-project)
+[Live Demo Link](https://tinyurl.com/y2q9u337)
 
 ## Getting started
 **I created a website a forex trading company (assumed by me). The design specifications were gotten from [Cindy Shin in Behance](https://www.behance.net/adagio07). The project consist of three(3) working pages (including home, about and tickets pages) with each page having versions for 2 different screen sizes (mobile and desktop)**
 
 ## Authors
- :bust_in_silhouette: **Author:**
+ **Author:**
  * Name: Taofeek OLALERE
- * Github: https://github.com/teekaytech/
- * Twitter: https://twitter.com/ola_lere
- * LinkedIn: https://www.linkedin.com/in/teekaytech/
+ * [Github](https://github.com/teekaytech/)
+ * [Twitter](https://twitter.com/ola_lere)
+ * [LinkedIn](https://www.linkedin.com/in/olaleretaofeek/)
 
 ## Contributing
 Contributions, issues and feature requests are welcome!
 
-   1. Fork the Project
-   2. Create your Feature Branch (git checkout -b feature/AmazingFeature)
-   3. Commit your Changes (git commit -m 'Add some AmazingFeature')
-   4. Push to the Branch (git push origin feature/AmazingFeature)
+   1. Fork the Projecthttps://rawcdn.githack.com/teekaytech/HTML-CSS-capstone-project/b0dcf61bf8bfdb043032a5aba055559222e5b059/index.html
    5. Open a Pull Request
 
 Feel free to check the [issues page](https://github.com/teekaytech/HTML-CSS-capstone-project/issues).
