@@ -7,13 +7,13 @@ This is a capstone project that focuses on developing a website for an upcoming 
 The aim of this project is to develop a real-world-like project based on an online website for an upcoming symposium. The contents are personalized and the design specifications were obtained [here](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
 
 ## Built with
-  * HTML 
+  * HTML
   * CSS (Bootstrap)
   * Linter (Stickler)
   * W3C Validator
 
 ## Live demo
-[Live Demo Link](https://tinyurl.com/y2q9u337)
+[Live Demo Link](https://teekaytech.github.io/HTML-CSS-capstone-project/)
 
 ## Getting started
 **I created a website a forex trading company (assumed by me). The design specifications were gotten from [Cindy Shin in Behance](https://www.behance.net/adagio07). The project consist of three(3) working pages (including home, about and tickets pages) with each page having versions for 2 different screen sizes (mobile and desktop)**
