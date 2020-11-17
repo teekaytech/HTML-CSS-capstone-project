@@ -12,6 +12,7 @@ The aim of this project is to develop a real-world-like project based on an onli
   * Linter (Stickler)
   * W3C Validator
 
+This project is Very Helpful for New Deveopler for learning New things...
 ## Live demo
 [Live Demo Link](https://tinyurl.com/y2q9u337)
 
